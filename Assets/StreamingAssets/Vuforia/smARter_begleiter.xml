@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="laptop" size="10.000000 6.888889" />
+    <ImageTarget name="android" size="10.000000 6.630435" />
+    <ImageTarget name="virus_detected" size="10.000000 8.700000" />
+    <ImageTarget name="trojan_detected" size="10.000000 8.907692" />
+  </Tracking>
+</QCARConfig>

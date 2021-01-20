@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be14b083f905ae46a684e15fd8fb735, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Welche Aussage ist falsch?
+    options:
+    - Adware wird ohne Kenntnis des Benutzers installiert.
+    - "W\xFCrmer infizieren ein Ger\xE4t und dadurch auch andere Computer \xFCber
+      das Netzwerk."
+    - "Rootkits erm\xF6glichen die vollst\xE4ndige Kontrolle \xFCber das Ger\xE4t."
+    - "Ransomware verschl\xFCsselt vertraulische Daten."
+    correctAnswer: Adware wird ohne Kenntnis des Benutzers installiert.
+    answered: 0
+  - questionInfo: Welche Aussage ist richtig?
+    options:
+    - Maleware und Virus sind dasselbe.
+    - Eine Maleware ist eine Art Virus.
+    - Ein Virus ist eine Art Maleware.
+    - Maleware und Virus haben nichts miteinander zu tun.
+    correctAnswer: Ein Virus ist eine Art Maleware.
+    answered: 0
+  - questionInfo: Was ist keine Maleware?
+    options:
+    - "W\xFCrmer"
+    - Ransomware
+    - Rootkits
+    - Bugs
+    correctAnswer: Bugs
+    answered: 0
+  - questionInfo: Was trifft nicht zu?
+    options:
+    - "Bugs sind an sich keine Maleware, aber k\xF6nnen trotzdem eine Gefahr darstellen."
+    - 'Ein Bot kann mehrere Computer infizieren '
+    - "Spyware kann keine bestimmten Sicherheitseinstellungen auf dem PC \xE4ndern."
+    - "Trojaner sind als n\xFCtzliche Programme getarnt."
+    correctAnswer: "Spyware kann keine bestimmten Sicherheitseinstellungen auf dem
+      PC \xE4ndern."
+    answered: 0
+  - questionInfo: Was trifft zu?
+    options:
+    - "Viren und W\xFCrmer verbreiten sich nur mit Zutun des Benutzers."
+    - "E-Mail Anh\xE4nge von bekannten Absendern sind immer sicher."
+    - Antiviren Programme halten alle Bedrohungen auf.
+    - "Viren k\xF6nnen keinen physischen Schaden anrichten."
+    correctAnswer: "Viren k\xF6nnen keinen physischen Schaden anrichten."
+    answered: 0
+  - questionInfo: Computerviren sind nicht....
+    options:
+    - dasselbe wie Maleware.
+    - "f\xE4hig sich auf andere Ger\xE4te zu verbreiten."
+    - "f\xE4hig die Systemleistung zu beeintr\xE4chtigen."
+    - "auf mobilen Ger\xE4ten zu finden."
+    correctAnswer: dasselbe wie Maleware.
+    answered: 0
+  questionsTF:
+  - questionInfo: "Ein Android Handy ist anf\xE4lliger f\xFCr Viren"
+    options:
+    - true
+    - false
+    correctAnswer: true
+    answered: 0
+  - questionInfo: IPhones verbieten es Apps von anderen Webseiten zu installlieren.
+    options:
+    - true
+    - false
+    correctAnswer: true
+    answered: 0
+  - questionInfo: "Ein schnellerer Akkuverbrauch ist kein Anzeichen f\xFCr ein Virus."
+    options:
+    - true
+    - false
+    correctAnswer: false
+    answered: 0
+  - questionInfo: "Im \xF6ffentlichen WLAN ist das Smartphone nicht gesch\xFCtzt
+      von sch\xE4dlicher Software."
+    options:
+    - true
+    - false
+    correctAnswer: true
+    answered: 0
+  - questionInfo: "Das Google Play Store pr\xFCft installierte Apps nicht auf sch\xE4dliche
+      Software"
+    options:
+    - true
+    - false
+    correctAnswer: false
+    answered: 0
+  - questionInfo: Im sicheren Modus eines Android-Handys, kann man herausfinden,
+      ob es einen Virus hat.
+    options:
+    - true
+    - false
+    correctAnswer: true
+    answered: 0
